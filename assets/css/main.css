@@ -2782,10 +2782,10 @@ input, select, textarea {
 			border-bottom-color: rgba(71, 71, 71, 0.25);
 		}
 
-			#footer a:hover {
+			/* #footer a:hover {
 				color: #37c0fb;
 				border-bottom-color: transparent;
-			}
+			} */
 
 		#footer .container {
 			margin-bottom: 4em;
@@ -2800,9 +2800,9 @@ input, select, textarea {
 				color: #999;
 			}
 
-				#footer .icons a:hover {
+				/* #footer .icons a:hover {
 					color: #474747;
-				}
+				} */
 
 		#footer .copyright {
 			color: #999;
