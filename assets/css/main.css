@@ -3358,3 +3358,12 @@ input, select, textarea {
 			}
 
 	}
+
+    .resume{
+        height: 45vw;
+        aspect-ratio: 8.5/11;
+    }
+    .center-contents{
+        display: grid;
+        justify-content: center !important;
+    }
