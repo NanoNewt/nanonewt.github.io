@@ -1,0 +1,11 @@
+navigation:
+- title: Home
+  link: /
+- title: Resume
+  link: /Resume.html
+- title: Interests
+  link: /interests.html
+- title: Projects
+  link: /projects.html
+- title: "Social Media"
+  link: /social-media.html

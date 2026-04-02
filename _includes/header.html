@@ -1,0 +1,13 @@
+<!-- Header -->
+<div id="header">
+    <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                {% for item in site.navigation %}
+                    <li class="{% if page.url == item.link %}current{% endif %}">
+                        <a href="{{ item.link }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+</div>
