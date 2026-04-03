@@ -2107,6 +2107,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
+    .photo {
+        max-width: 50vw;
+        max-height: 70vh;
+    }
+    .flex {
+        display: flex;
+    }
 /* Icon */
 
 	.icon {
