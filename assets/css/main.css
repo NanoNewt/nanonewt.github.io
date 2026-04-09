@@ -2074,7 +2074,7 @@ input, select, textarea {
 
         .image-row{
             display: flex;
-            align-items: start;
+            align-items: center;
         }
         .image-row img{
             max-height:40vh; 
