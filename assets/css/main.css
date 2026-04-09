@@ -1997,6 +1997,7 @@ input, select, textarea {
 			padding-top: 3em;
 		}
 
+
 /* Form */
 
 	input[type="text"],
@@ -2061,6 +2062,7 @@ input, select, textarea {
 		color: #999;
 	}
 
+
 /* Image */
 
 	.image {
@@ -2070,6 +2072,17 @@ input, select, textarea {
 		border-radius: 5px;
 	}
 
+        .image-row{
+            display: flex;
+            align-items: start;
+        }
+        .image-row img{
+            max-height:40vh; 
+            flex: 1;
+        }
+        .image-row p {
+            flex: 2;
+        }
 		.image img {
 			display: block;
 			border-radius: 5px;
@@ -2085,7 +2098,8 @@ input, select, textarea {
 
 			.image.left img {
 				display: block;
-				width: 100%;
+                max-width: 30vw;
+                width: 100%;
 			}
 
 		.image.fit {
@@ -2110,6 +2124,8 @@ input, select, textarea {
     .photo {
         max-width: 50vw;
         max-height: 70vh;
+        display: flex;
+        justify-content: center;
     }
     .flex {
         display: flex;
@@ -3373,4 +3389,17 @@ input, select, textarea {
     .center-contents{
         display: grid;
         justify-content: center !important;
+    }
+    .centered{
+        display: block;
+        margin: auto;
+    }
+    .main-image{
+        display: block;
+        margin: auto;
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+    .no-bottom-margin{
+        margin-bottom: 0%;
     }
