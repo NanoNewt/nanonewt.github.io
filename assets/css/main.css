@@ -3403,3 +3403,9 @@ input, select, textarea {
     .no-bottom-margin{
         margin-bottom: 0%;
     }
+
+    .social-media-section{
+        display: flex;
+        flex-direction: row;
+        column-gap: 1vw;
+    }
